@@ -1,0 +1,24 @@
+Origin: Kismatic, Inc Repository
+Label: Kismatic, Inc Repository
+Architectures: amd64
+Codename: wheezy
+Components: main
+Description: Apt repository for Kismatic builds of Kubernetes
+SignWith: F393393F
+
+# Origin: Unstable Repository
+# Label: Unstable Repository
+# Suite: unstable
+# Codename: wheezy-updates
+# Architectures: amd64
+# Components: main
+# Description: Unstable Repository
+# SignWith: F393393F
+
+# Origin: Kismatic, Inc Repository
+# Label: Kismatic, Inc Repository
+# Architectures: amd64
+# Codename: jessie
+# Components: main
+# Description: Apt repository for Kismatic builds of Kubernetes
+# SignWith: F393393F
