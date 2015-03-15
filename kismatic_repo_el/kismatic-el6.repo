@@ -1,0 +1,13 @@
+[kismatic]
+name=Kismatic Packages for EL 6 - x86_64
+baseurl=http://repos.kismatic.io/el/6/x86_64/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kismatic
+
+#[kismatic-noarch]
+#name=Kismatic Packages for EL 6 - noarch
+#baseurl=http://repos.kismatic.io/el/6/noarch/
+#enabled=1
+#gpgcheck=1
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kismatic

@@ -1,3 +1,29 @@
+# Ubuntu releases
+Origin: Kismatic, Inc Repository
+Label: Kismatic, Inc Repository
+Architectures: amd64
+Codename: trusty
+Components: main
+Description: Apt repository for Kismatic builds of Kubernetes
+SignWith: F393393F
+
+Origin: Kismatic, Inc Repository
+Label: Kismatic, Inc Repository
+Architectures: amd64
+Codename: utopic
+Components: main
+Description: Apt repository for Kismatic builds of Kubernetes
+SignWith: F393393F
+
+# Origin: Kismatic, Inc Repository
+# Label: Kismatic, Inc Repository
+# Architectures: amd64
+# Codename: vivid
+# Components: main
+# Description: Apt repository for Kismatic builds of Kubernetes
+# SignWith: F393393F
+
+# Debian releases
 Origin: Kismatic, Inc Repository
 Label: Kismatic, Inc Repository
 Architectures: amd64
