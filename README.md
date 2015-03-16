@@ -8,8 +8,10 @@ gem install fpm
 
 `./release.sh` script should be run on the repo server after new packages are added or updated
 
+`sudo su -`
+
 Testing:
-`sudo rpm -Uvh http://repos.kismatic.com/el/7/x86_64/kismatic-repo-el-7-1.x86_64.rpm` will install the repo source on a local box
+`sudo rpm -Uvh https://repos.kismatic.com/el/7/x86_64/kismatic-repo-el-7-1.x86_64.rpm` will install the repo source on a local box
 
 TODO:
 Update fpm metadata with descriptions etc.

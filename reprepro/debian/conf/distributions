@@ -5,7 +5,7 @@ Architectures: amd64
 Codename: trusty
 Components: main
 Description: Apt repository for Kismatic builds of Kubernetes
-SignWith: F393393F
+SignWith: D83BE32B
 
 Origin: Kismatic, Inc Repository
 Label: Kismatic, Inc Repository
@@ -13,7 +13,7 @@ Architectures: amd64
 Codename: utopic
 Components: main
 Description: Apt repository for Kismatic builds of Kubernetes
-SignWith: F393393F
+SignWith: D83BE32B
 
 # Origin: Kismatic, Inc Repository
 # Label: Kismatic, Inc Repository
@@ -21,7 +21,7 @@ SignWith: F393393F
 # Codename: vivid
 # Components: main
 # Description: Apt repository for Kismatic builds of Kubernetes
-# SignWith: F393393F
+# SignWith: D83BE32B
 
 # Debian releases
 Origin: Kismatic, Inc Repository
@@ -30,7 +30,7 @@ Architectures: amd64
 Codename: wheezy
 Components: main
 Description: Apt repository for Kismatic builds of Kubernetes
-SignWith: F393393F
+SignWith: D83BE32B
 
 # Origin: Unstable Repository
 # Label: Unstable Repository
@@ -39,7 +39,7 @@ SignWith: F393393F
 # Architectures: amd64
 # Components: main
 # Description: Unstable Repository
-# SignWith: F393393F
+# SignWith: D83BE32B
 
 # Origin: Kismatic, Inc Repository
 # Label: Kismatic, Inc Repository
@@ -47,4 +47,4 @@ SignWith: F393393F
 # Codename: jessie
 # Components: main
 # Description: Apt repository for Kismatic builds of Kubernetes
-# SignWith: F393393F
+# SignWith: D83BE32B
