@@ -13,9 +13,6 @@ gem install fpm
 Testing:
 `sudo rpm -Uvh https://repos.kismatic.com/el/7/x86_64/kismatic-repo-el-7-1.x86_64.rpm` will install the repo source on a local box
 
-TODO:
-Update fpm metadata with descriptions etc.
-
 TODO: could sign metadata as well, less used
 gpg --detach-sign --armor repodata/repomd.xml
 
