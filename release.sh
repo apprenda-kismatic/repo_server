@@ -5,12 +5,16 @@ git pull origin master
 
 cd kismatic_builds
 #reprepro includedeb <osrelease> <debfile>
+# Remove
 reprepro -b /data/repos/apt/debian remove trusty kubernetes-master
+reprepro -b /data/repos/apt/debian remove trusty kubernetes-node
+reprepro -b /data/repos/apt/debian remove utopic kubernetes-master
 reprepro -b /data/repos/apt/debian remove utopic kubernetes-node
 
 reprepro -b /data/repos/apt/debian remove trusty etcd
 reprepro -b /data/repos/apt/debian remove utopic etcd
 
+# Adds
 reprepro -b /data/repos/apt/debian includedeb trusty debian/base/kubernetes*.deb
 reprepro -b /data/repos/apt/debian includedeb utopic debian/base/kubernetes*.deb
 
