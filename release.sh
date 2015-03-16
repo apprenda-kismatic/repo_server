@@ -5,11 +5,17 @@ git pull origin master
 
 cd kismatic_builds
 #reprepro includedeb <osrelease> <debfile>
-reprepro -b /data/repos/apt/debian remove trusty debian/base/kubernetes*.deb
-reprepro -b /data/repos/apt/debian remove utopic debian/base/kubernetes*.deb
+reprepro -b /data/repos/apt/debian remove trusty kubernetes-master
+reprepro -b /data/repos/apt/debian remove utopic kubernetes-node
+
+reprepro -b /data/repos/apt/debian remove trusty etcd
+reprepro -b /data/repos/apt/debian remove utopic etcd
 
 reprepro -b /data/repos/apt/debian includedeb trusty debian/base/kubernetes*.deb
 reprepro -b /data/repos/apt/debian includedeb utopic debian/base/kubernetes*.deb
+
+reprepro -b /data/repos/apt/debian includedeb trusty debian/base/etcd*.deb
+reprepro -b /data/repos/apt/debian includedeb utopic debian/base/etcd*.deb
 
 # Yum
 cd el/7/x86_64
