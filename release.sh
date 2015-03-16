@@ -1,5 +1,7 @@
 # import release
 
+git reset --hard
+git pull origin master
 
 cd kismatic_builds
 #reprepro includedeb <osrelease> <debfile>
@@ -17,3 +19,5 @@ cp -fR el /data/repos/yum
 
 # createrepo for each one
 createrepo -d /data/repos/yum/el/7/x86_64
+
+cd ..
