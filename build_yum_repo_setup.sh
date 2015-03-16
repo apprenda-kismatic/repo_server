@@ -13,5 +13,6 @@ fpm -s dir -n "kismatic-repo-el" \
 -v 7 \
 -a x86_64 \
 -t rpm --rpm-os linux \
+--after-install kismatic_repo_el/after-install.sh \
 RPM-GPG-KEY-kismatic=/etc/pki/rpm-gpg/RPM-GPG-KEY-kismatic \
 kismatic-el7.repo=/etc/yum.repos.d/kismatic.repo

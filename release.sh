@@ -1,13 +1,15 @@
 # import release
 
-cd .kismatic_builds
+cd kismatic_builds
 #reprepro includedeb <osrelease> <debfile>
 reprepro -b /var/www/repos/apt/debian includedeb trusty debian/base/kubernetes*.deb
 reprepro -b /var/www/repos/apt/debian includedeb utopic debian/base/kubernetes*.deb
 
 # Yum
-rpm --resign el/*.rpm
+cd el/7/x86_64
+rpm --resign *.rpm
+cd ../../../
+\cp -R el /var/www/repos/yum
 
-sudo cp ./el/*.rpm /var/www/repos/yum/el
-cd /var/www/repos/yum/el
-sudo createrepo -d .
+# createrepo for each one
+createrepo -d /var/www/repos/yum/el/7/x86_64
