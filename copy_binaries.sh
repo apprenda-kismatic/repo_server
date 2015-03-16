@@ -4,4 +4,8 @@
 cp -f ../k8s_distro_builder/kubernetes/builds/*.rpm ./kismatic_builds/el/7/x86_64
 cp -f ../k8s_distro_builder/kubernetes/builds/*.deb ./kismatic_builds/debian/base
 
+cp -f ../k8s_distro_builder/etcd/builds/*.deb ./kismatic_builds/debian/base
+cp -f ../k8s_distro_builder/etcd/builds/*.rpm ./kismatic_builds/el/7/x86_64
+
+
 # copy install.sh files
