@@ -17,5 +17,6 @@ fpm -s dir -n "kismatic-repo-el" \
 --maintainer "Kismatic, Inc. <info@kismatic.com>" \
 --vendor "Kismatic, Inc." \
 --description "Automated setup for Kismatic yum package repository" \
+--url "https://www.kismatic.com" \
 RPM-GPG-KEY-kismatic=/etc/pki/rpm-gpg/RPM-GPG-KEY-kismatic \
 kismatic-el7.repo=/etc/yum.repos.d/kismatic.repo
