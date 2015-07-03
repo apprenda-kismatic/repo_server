@@ -20,7 +20,11 @@
 cp -f ../kubernetes-distro-packages/kubernetes/builds/*.rpm ./kismatic_builds/el/7/x86_64
 cp -f ../kubernetes-distro-packages/kubernetes/builds/*.deb ./kismatic_builds/debian/base
 
+cp -f ../kubernetes-distro-packages/kubernetes/builds/systemd/*.deb ./kismatic_builds/debian/systemd
+
 cp -f ../kubernetes-distro-packages/etcd/builds/*.deb ./kismatic_builds/debian/base
 cp -f ../kubernetes-distro-packages/etcd/builds/*.rpm ./kismatic_builds/el/7/x86_64
+
+cp -f ../kubernetes-distro-packages/etcd/builds/systemd/*.deb ./kismatic_builds/debian/systemd
 
 # copy install.sh files

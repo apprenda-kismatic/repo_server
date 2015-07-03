@@ -26,16 +26,36 @@ reprepro -b /data/repos/apt/debian remove trusty kubernetes-master
 reprepro -b /data/repos/apt/debian remove trusty kubernetes-node
 reprepro -b /data/repos/apt/debian remove utopic kubernetes-master
 reprepro -b /data/repos/apt/debian remove utopic kubernetes-node
+reprepro -b /data/repos/apt/debian remove vivid kubernetes-master
+reprepro -b /data/repos/apt/debian remove vivid kubernetes-node
+
+reprepro -b /data/repos/apt/debian remove wheezy kubernetes-master
+reprepro -b /data/repos/apt/debian remove wheezy kubernetes-node
+
+reprepro -b /data/repos/apt/debian remove jessie kubernetes-master
+reprepro -b /data/repos/apt/debian remove jessie kubernetes-node
 
 reprepro -b /data/repos/apt/debian remove trusty etcd
 reprepro -b /data/repos/apt/debian remove utopic etcd
+reprepro -b /data/repos/apt/debian remove vivid etcd
+
+reprepro -b /data/repos/apt/debian remove wheezy etcd
+reprepro -b /data/repos/apt/debian remove jessie etcd
 
 # Adds
 reprepro -b /data/repos/apt/debian includedeb trusty debian/base/kubernetes*.deb
 reprepro -b /data/repos/apt/debian includedeb utopic debian/base/kubernetes*.deb
+reprepro -b /data/repos/apt/debian includedeb wheezy debian/base/kubernetes*.deb
+
+reprepro -b /data/repos/apt/debian includedeb vivid debian/systemd/kubernetes*.deb
+reprepro -b /data/repos/apt/debian includedeb jessie debian/systemd/kubernetes*.deb
 
 reprepro -b /data/repos/apt/debian includedeb trusty debian/base/etcd*.deb
 reprepro -b /data/repos/apt/debian includedeb utopic debian/base/etcd*.deb
+
+reprepro -b /data/repos/apt/debian includedeb vivid debian/systemd/etcd*.deb
+reprepro -b /data/repos/apt/debian includedeb jessie debian/systemd/etcd*.deb
+
 
 # Yum
 cd el/7/x86_64

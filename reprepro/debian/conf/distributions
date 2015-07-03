@@ -15,13 +15,13 @@ Components: main
 Description: Apt repository for Kismatic builds of Kubernetes
 SignWith: D83BE32B
 
-# Origin: Kismatic, Inc Repository
-# Label: Kismatic, Inc Repository
-# Architectures: amd64
-# Codename: vivid
-# Components: main
-# Description: Apt repository for Kismatic builds of Kubernetes
-# SignWith: D83BE32B
+Origin: Kismatic, Inc Repository
+Label: Kismatic, Inc Repository
+Architectures: amd64
+Codename: vivid
+Components: main
+Description: Apt repository for Kismatic builds of Kubernetes
+SignWith: D83BE32B
 
 # Debian releases
 Origin: Kismatic, Inc Repository
@@ -41,10 +41,10 @@ SignWith: D83BE32B
 # Description: Unstable Repository
 # SignWith: D83BE32B
 
-# Origin: Kismatic, Inc Repository
-# Label: Kismatic, Inc Repository
-# Architectures: amd64
-# Codename: jessie
-# Components: main
-# Description: Apt repository for Kismatic builds of Kubernetes
-# SignWith: D83BE32B
+Origin: Kismatic, Inc Repository
+Label: Kismatic, Inc Repository
+Architectures: amd64
+Codename: jessie
+Components: main
+Description: Apt repository for Kismatic builds of Kubernetes
+SignWith: D83BE32B
