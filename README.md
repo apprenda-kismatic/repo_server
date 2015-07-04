@@ -6,9 +6,7 @@ gem install fpm
 
 `./copy_binaries.sh` add our custom packages to this repo
 
-`./release.sh` script should be run on the repo server after new packages are added or updated
-
-`sudo su -`
+`sudo ./release.sh` script should be run on the repo server after new packages are added or updated
 
 Testing:
 `sudo rpm -Uvh https://repos.kismatic.com/el/7/x86_64/kismatic-repo-el-7-1.x86_64.rpm` will install the repo source on a local box
